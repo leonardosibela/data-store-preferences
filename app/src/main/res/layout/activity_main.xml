@@ -19,6 +19,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etSaveKey"
+            android:imeOptions="actionNext"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="15" />
@@ -40,6 +41,7 @@
             android:id="@+id/etSaveValue"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:imeOptions="actionDone"
             android:ems="15" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -57,6 +59,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etReadkey"
+            android:imeOptions="actionDone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="15" />
