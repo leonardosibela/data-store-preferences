@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity() {
         setupReadButton()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
+
     private fun setupSaveButton() {
         binding.btnSave.setOnClickListener {
             lifecycleScope.launch {
